@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Developer from "./pages/Developer";
+import GreetingPage from "./pages/GreetingPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/developer" element={<Developer />} />
+          <Route path="/thanks" element={<GreetingPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
