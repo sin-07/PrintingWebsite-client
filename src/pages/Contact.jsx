@@ -23,7 +23,7 @@ const Contact = () => {
       if (!/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/.test(email)) {
         return toast.error("Invalid email");
       }
-      const res = await axios.post("http://localhost:5000/api/query", {
+      const res = await axios.post("https://printingwebsite-server.onrender.com/query", {
         name,
         email,
         phone,
@@ -34,6 +34,7 @@ const Contact = () => {
         e.target.reset();
         setTimeout(() => {});
       }
+      
     } catch (error) {
       if (error.response) {
         return toast.error(error.response.data.message);
