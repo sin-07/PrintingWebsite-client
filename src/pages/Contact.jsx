@@ -68,7 +68,7 @@ const Contact = () => {
       >
         <div className="w-full max-w-3xl bg-white shadow-xl rounded-2xl p-8">
           <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
-            Contact Us
+            Feedback Form
           </h2>
           <form onSubmit={handleSubmit} className="space-y-5">
             <input
