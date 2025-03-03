@@ -28,7 +28,7 @@ const GreetingPage = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             We appreciate your effort in reaching out to us.  
-            Our team will review your queries or suggestions and try to make changes ASAP! 💙
+            Our team will review your queries or suggestions and try to make changes ASAP..!!
           </motion.p>
 
           <motion.div
