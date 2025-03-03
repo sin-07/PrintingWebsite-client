@@ -105,7 +105,9 @@ const Contact = () => {
       hover:bg-blue-600 transition-all flex items-center justify-center`}
               disabled={isLoading}
             >
-              {isLoading ? "Please wait we've free backend so it'll take time... "  : "Submit"}
+              {isLoading
+                ? "Please wait we've free backend so it'll take time... "
+                : "Submit"}
             </button>
           </form>
         </div>
